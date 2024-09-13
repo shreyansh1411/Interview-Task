@@ -1,0 +1,362 @@
+*{
+  box-sizing: border-box;
+  margin: 0;  
+}
+
+.header{
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    height: 40px;
+    width: 20%; 
+}
+
+.logo-img{
+    height: 20px;
+    width: 100px;
+    background-color: #cacaca;
+    border-radius: 2px;
+    padding: 13px 15px;
+    margin: 15px 0px 0px 20px;
+}
+
+.navbar{
+    width: 60%;
+}
+
+.navbar td{
+    font-size: 8px;
+    padding: 20px 30px 0px 30px ;
+    justify-content: center;
+}
+
+.login{
+    width: 20%;
+}
+
+.login button {
+    background-color: #cacaca;
+    padding: 5px 7px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.login button span{
+    font-size: 8px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.future{
+    height: 250px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.content{
+    height: 250px;
+    width: 50%;
+}
+
+.content h1{
+    font-size: 20px;
+    font-weight:400;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.content h4{
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.future-button{
+    border:#f1f1f1 solid 1px;
+    background-color: transparent;
+    padding: 3px 8px;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: -140px;
+}
+
+.future-button span{
+    font-size: 8px;
+    font-weight: 500;
+}
+
+.image{
+    height: 250px;
+    width: 50%;
+    border-radius: 3px;
+    padding: 20px 20px;
+}
+
+.future-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    margin-top: -20px;
+}
+
+.forgot{
+    height: 65px;
+    background-color:#f1f1f1 ;
+    display: flex;
+}
+
+.forgot-content{
+    width: 70%;
+    text-align: left;
+}
+
+.forgot-content h4{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.forgot-content p{
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 60px;
+}
+
+.forgot-button{
+    width: 30%;
+}
+
+.forgot-button button{
+    margin-top: 25px;
+    border: none;
+    background-color: #cacaca;
+    border-radius: 2px;
+    padding: 4px 5px;
+}
+.forgot-button button span{
+    font-size: 8px;
+    font-weight: 500;
+}
+
+.mission{
+    height: 200px;
+    display: flex;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.mission-text1{
+    width: 50%;
+}
+
+.mission-text1 h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.mission-text1 p{
+    font-size: 10px;
+    font-weight: lighter;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+.mission-text2{
+    width: 50%;
+}
+
+.mission-text2 p{
+    font-size: 11px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.Featured {
+    height: 80px;
+    margin-top: -50px;
+}
+
+.Featured p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Featured h6 {
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.card{
+    height: 230px;
+    display: flex;
+    align-items: center;
+    padding: 10px 60px 0px 70px;
+}
+
+.card-text{
+    height: 180px;
+    width: 28%;
+    margin-left: 15px;
+    border: #cacaca solid 0.5px ;
+    border-radius: 3px;
+}
+
+.card-img{
+    height: 80px;
+    border-radius: 2px 2px 0px 0px;
+    background-color: #cacaca;
+}
+
+.card-text h3{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.card-text p{
+    font-size: 7px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.card button{
+    background:none;
+    border-radius: 3px;
+    border: #cacaca solid 0.8px;
+    padding: 2px 30px 5px 30px;
+    margin-top: 15px;
+}
+.card button span{
+    font-size: 6px;
+    text-align: center;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+button{
+    background-color: #cacaca;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+button span{
+    font-size: 10px;
+}
+
+.footer{
+    height: 400px;
+    background-color: #222222 ;
+    display: flex;
+}
+
+.planet-box{
+    height: 27px;
+    width: 90px;
+    background-color: #999999;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.planet{
+    height: 300px;
+    width: 30%;
+    text-align: left;
+}
+
+.planet p{
+    font-size: 6px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.information{
+    height: 300px;
+    width: 20%;
+    text-align: left;
+}
+
+.information h5{
+    font-size: 10px;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.information p{
+    font-size: 8px;
+    color: white;
+    font-weight: 200;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+.suscribe{
+    height: 300px;
+    width: 50%;
+}
+
+.suscribe-box{
+    height: 170px;
+    width: 130px;
+    border-left: #ffffff solid 0.5px;
+    border-right: #ffffff solid 0.1px;
+    border-top: #ffffff solid 0.1px;
+    border-bottom: #ffffff solid 0.1px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.suscribe-box h5{
+    font-size: 9px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.suscribe-box button{
+    margin-left: 25px;
+    padding: 3px 35px 4px 35px;
+    background: none;
+    border: #cacaca solid 1px;
+}
+
+.suscribe-box button span{
+    font-size: 6px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.suscribe-box p{
+    font-size: 8px;
+    color: #ffffff;
+    margin-top: -10px;   
+}
+
+.suscribe-button{
+    padding: 3px 35px 4px 35px;
+    background-color: white;
+
+}
